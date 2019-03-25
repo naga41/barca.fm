@@ -36,3 +36,8 @@ DEFAULT_PAGINATION = 10
 
 THEME = 'pelican-clean-blog'
 SITESUBTITLE = 'バルサ好きの二人によるFCバルセロナについてのゆるトーク'
+
+# set slug source filename
+SLUGIFY_SOURCE = 'basename'
+# set article's url only slug
+ARTICLE_URL = '{slug}'
