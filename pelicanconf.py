@@ -2,15 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Shuhei Nagata'
+AUTHOR = 'naga41'
 SITENAME = 'barca.fm'
 SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Asia/Tokyo'
-
-DEFAULT_LANG = 'JP'
+DEFAULT_LANG = 'ja_JP'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -20,10 +19,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-# LINKS = (('Pelican', 'http://getpelican.com/'),
-#          ('Python.org', 'http://python.org/'),
-#          ('Jinja2', 'http://jinja.pocoo.org/'),
-#          ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Anchor', 'https://anchor.fm/barcafm'),
+    ('Apple Podcasts', 'https://itunes.apple.com/us/podcast/barca-fm/id1456396781'),
+    ('Google Podcasts', 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy85YmE1ZWM0L3BvZGNhc3QvcnNz'),
+    ('Spotify', 'https://open.spotify.com/show/1mQFwZhuNUK5cawwgc8opB'),
+    ('Overcast', 'https://overcast.fm/itunes1456396781/barca-fm'),
+    ('Pocket Casts', 'https://pca.st/mk89'),
+)
 
 # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
