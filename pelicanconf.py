@@ -39,6 +39,9 @@ DEFAULT_PAGINATION = 10
 
 THEME = 'pelican-clean-blog'
 SITESUBTITLE = 'バルサ好きの二人によるFCバルセロナについてのゆるトーク'
+SHOW_FULL_ARTICLE = True
+HEADER_COVER = 'images/camp_nou_main.jpg'
+FAVICON = 'images/favicon.ico'
 
 # set slug source filename
 SLUGIFY_SOURCE = 'basename'
