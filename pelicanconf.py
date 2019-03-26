@@ -23,8 +23,8 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ('Anchor', 'https://anchor.fm/barcafm'),
-    ('Apple Podcasts', 'https://itunes.apple.com/us/podcast/barca-fm/id1456396781'),
-    ('Google Podcasts', 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy85YmE1ZWM0L3BvZGNhc3QvcnNz'),
+    ('Apple Podcasts', 'https://itunes.apple.com/us/podcast/barca-fm/id1456396781'),  # noqa: E501
+    ('Google Podcasts', 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy85YmE1ZWM0L3BvZGNhc3QvcnNz'),  # noqa: E501
     ('Spotify', 'https://open.spotify.com/show/1mQFwZhuNUK5cawwgc8opB'),
     ('Overcast', 'https://overcast.fm/itunes1456396781/barca-fm'),
     ('Pocket Casts', 'https://pca.st/mk89'),
