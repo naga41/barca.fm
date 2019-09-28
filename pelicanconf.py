@@ -7,8 +7,11 @@ SITENAME = 'barca.fm'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
+STATIC_PATHS = ['images', 'extra/CNAME', '.circleci']
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    '.circleci/config.yml': {'path': '.circleci/config.yml'}
+    }
 
 TIMEZONE = 'Asia/Tokyo'
 DEFAULT_LANG = 'ja_JP'
