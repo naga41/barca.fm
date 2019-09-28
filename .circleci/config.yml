@@ -18,6 +18,10 @@ jobs:
     working_directory: ~/repo
 
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "38:7c:c4:39:14:1b:f9:71:29:0c:d8:b6:dd:2b:d4:ef"
+
       - checkout
 
       # Download and cache dependencies
