@@ -36,6 +36,7 @@ LINKS = (
 # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
 #           ('Another social link', '#'),)
+SOCIAL = (('twitter', 'http://twitter.com/barca_fm_14'),)
 
 DEFAULT_PAGINATION = 10
 
