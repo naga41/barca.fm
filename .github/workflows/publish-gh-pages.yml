@@ -6,6 +6,8 @@ name: Publish Github Pages
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ setup_github_actions ]
 
 jobs:
   build:
