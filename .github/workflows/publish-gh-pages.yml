@@ -13,9 +13,7 @@ on: [pull_request]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.9
@@ -36,9 +34,8 @@ jobs:
       run: |
         pip install -r requirements.txt
     - name: Publish github pages
-      # action動作時はbuild用branchで動作していて、gh-pagesが存在しないためfetchしている
+      # action動作時はbuild用branchで動作していて、gh-pagesが存在しないためmake前にfetchしている
       run: |
-        git fetch
         git clone https://github.com/gilsondev/pelican-clean-blog.git
         pelican-themes --install ./pelican-clean-blog
-        make publish; make github
+        git fetch; make publish; make github
