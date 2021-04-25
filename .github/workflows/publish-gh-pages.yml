@@ -1,0 +1,36 @@
+name: Publish Github Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Cache pip
+      uses: actions/cache@v2
+      with:
+        # このパスは Ubuntu に固有
+        path: ~/.cache/pip
+        # 対応する要件ファイルにキャッシュヒットがあるかどうかを確認
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          ${{ runner.os }}-
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    - name: Publish github pages
+      # action動作時はbuild用branchで動作しており、gh-pagesが存在せず新規作成後に
+      # pushしようとしてconflictするためmake前にfetchしている
+      run: |
+        git clone https://github.com/gilsondev/pelican-clean-blog.git
+        pelican-themes --install ./pelican-clean-blog
+        git fetch; make publish; make github
