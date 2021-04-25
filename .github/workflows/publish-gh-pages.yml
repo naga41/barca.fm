@@ -5,9 +5,11 @@ name: Publish Github Pages
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
   pull_request:
-    branches: [ setup_github_actions ]
+    branches:
+      - setup_github_actions
 
 jobs:
   build:
