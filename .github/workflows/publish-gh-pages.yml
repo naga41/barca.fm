@@ -1,0 +1,41 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Publish Github Pages
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Cache pip
+      uses: actions/cache@v2
+      with:
+        # このパスは Ubuntu に固有です
+        path: ~/.cache/pip
+        # 対応する要件ファイルにキャッシュヒットがあるかどうかを確認する
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          ${{ runner.os }}-
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    - name: Publish github pages
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git clone https://github.com/gilsondev/pelican-clean-blog.git
+        pelican-themes --install ./pelican-clean-blog
+        git fetch && git pull origin gh-pages:gh-pages
+        make publish; make github

@@ -53,7 +53,7 @@ jobs:
             . venv/bin/activate
             git clone git@github.com:gilsondev/pelican-clean-blog.git
             pelican-themes --install ./pelican-clean-blog
-            make publish; make github
+            # make publish; make github
 
       # run tests!
       # this example uses Django's built-in test-runner
