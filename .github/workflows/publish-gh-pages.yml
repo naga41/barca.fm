@@ -37,11 +37,7 @@ jobs:
         pip install -r requirements.txt
     - name: Publish github pages
       run: |
-        git branch
-        git branch -r
-        git fetch
-        git checkout gh-pages
-        git checkout master
+        git fetch && git checkout gh-pages && git checkout master
         git clone https://github.com/gilsondev/pelican-clean-blog.git
         pelican-themes --install ./pelican-clean-blog
         make publish; make github
