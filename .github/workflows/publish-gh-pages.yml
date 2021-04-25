@@ -25,9 +25,9 @@ jobs:
     - name: Cache pip
       uses: actions/cache@v2
       with:
-        # このパスは Ubuntu に固有です
+        # このパスは Ubuntu に固有
         path: ~/.cache/pip
-        # 対応する要件ファイルにキャッシュヒットがあるかどうかを確認する
+        # 対応する要件ファイルにキャッシュヒットがあるかどうかを確認
         key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-pip-
@@ -36,8 +36,9 @@ jobs:
       run: |
         pip install -r requirements.txt
     - name: Publish github pages
+      # action動作時はbuild用branchで動作していて、gh-pagesが存在しないためfetchしている
       run: |
-        git fetch && git checkout gh-pages && git checkout master
+        git fetch
         git clone https://github.com/gilsondev/pelican-clean-blog.git
         pelican-themes --install ./pelican-clean-blog
         make publish; make github
