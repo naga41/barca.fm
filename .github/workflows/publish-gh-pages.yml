@@ -39,5 +39,4 @@ jobs:
       run: |
         git clone https://github.com/gilsondev/pelican-clean-blog.git
         pelican-themes --install ./pelican-clean-blog
-        git checkout gh-pages && git checkout master
         make publish; make github
