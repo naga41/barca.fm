@@ -22,4 +22,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 # DISQUS_SITENAME = ""
-GOOGLE_ANALYTICS = "UA-136943856-1"
+# GOOGLE_ANALYTICS = "UA-136943856-1"  # Old Universal Analytics - deprecated
+GOOGLE_ANALYTICS_4 = "G-NVH4XLKK8J"  # Replace with your GA4 measurement ID
