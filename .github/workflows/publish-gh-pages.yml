@@ -31,6 +31,5 @@ jobs:
       # action動作時はbuild用branchで動作しており、gh-pagesが存在せず新規作成後に
       # pushしようとしてconflictするためmake前にfetchしている
       run: |
-        git clone https://github.com/gilsondev/pelican-clean-blog.git
         pelican-themes --install ./pelican-clean-blog
         git fetch; make publish; make github
