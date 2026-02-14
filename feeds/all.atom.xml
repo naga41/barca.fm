@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>barca.fm</title><link href="https://barca.fm/" rel="alternate"/><link href="https://barca.fm/feeds/all.atom.xml" rel="self"/><id>https://barca.fm/</id><updated>2026-01-25T00:00:00+09:00</updated><subtitle>バルサ好きの二人によるFCバルセロナについてのゆるトーク</subtitle><entry><title>64: 嗚呼…ペドリ負傷離脱、レアルの政権交代とバルサ会長選</title><link href="https://barca.fm/64" rel="alternate"/><published>2026-01-25T00:00:00+09:00</published><updated>2026-01-25T00:00:00+09:00</updated><author><name>barca.fm</name></author><id>tag:barca.fm,2026-01-25:/64</id><summary type="html">&lt;p&gt;激動の1月後半。スーペルコパ優勝の歓喜も束の間、ソシエダ戦での敗北とペドリの離脱がチームを襲う。一方、宿敵レアル・マドリードではシャビ・アロンソ解任という激震が。久保建英の輝きや移籍市場の動きも含め、濃密な2週間を振り返りました。&lt;/p&gt;</summary><content type="html">&lt;iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/7eiR9EEQhiHjTyXAqwpLa8?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"&gt;&lt;/iframe&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>barca.fm</title><link href="https://barca.fm/" rel="alternate"/><link href="https://barca.fm/feeds/all.atom.xml" rel="self"/><id>https://barca.fm/</id><updated>2026-02-14T00:00:00+09:00</updated><subtitle>バルサ好きの二人によるFCバルセロナについてのゆるトーク</subtitle><entry><title>65: コパ4失点の衝撃、ドロ流出の波紋と会長選スタート</title><link href="https://barca.fm/65" rel="alternate"/><published>2026-02-14T00:00:00+09:00</published><updated>2026-02-14T00:00:00+09:00</updated><author><name>barca.fm</name></author><id>tag:barca.fm,2026-02-14:/65</id><summary type="html">&lt;p&gt;激動の1月末から2月上旬。CLではコペンハーゲンに快勝しベスト16入りを決めるも、コパ・デル・レイではアトレティコに0-4という歴史的大敗。ピッチ外でも有望株ドロ・フェルナンデスのPSG流出、ラポルタ辞任による会長選の幕開けなど、ニュースの絶えない2週間について話しました。&lt;/p&gt;</summary><content type="html">&lt;iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/7BTgEdyJEHT9ab3lk8x7Ll?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;※ドロと会長選について話すのを忘れました…&lt;/p&gt;
+&lt;h3&gt;今週のトピック：天国と地獄の2週間&lt;/h3&gt;
+&lt;p&gt;CLでの快勝から一転、国内カップ戦での悪夢。そしてピッチ外でも大きな動きがありました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;競技面の二面性&lt;/strong&gt;: CLではコペンハーゲンを下しベスト16進出。日本人DF鈴木淳之介の好プレーも話題に。一方でコパ・デル・レイ準決勝1stレグではアトレティコに0-4の惨敗。フリック体制最悪の夜に。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ラ・マシアの「裏切り」&lt;/strong&gt;: 18歳の至宝ドロ・フェルナンデスが契約解除金でPSGへ電撃移籍。「信頼の裏切り」とクラブは激怒。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;会長選挙スタート&lt;/strong&gt;: ラポルタが現職を辞任し、選挙戦へ。対立候補フォントは「メッシ帰還」を公約に掲げ、3月15日の投票に向けた戦いが開幕。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;試合結果：CL突破とメトロポリターノの悲劇&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1/28 CL vs コペンハーゲン (4-1)&lt;/strong&gt;: レヴァンドフスキの同点弾、ラ・マシアの至宝ヤマルの逆転弾などで快勝。敵の日本人リベロ鈴木淳之介に苦しめられる時間帯も。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1/31 ラ・リーガ vs エルチェ (3-1)&lt;/strong&gt;: リーグ戦では順当勝ち。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2/3 コパ・デル・レイ vs アルバセテ (2-1)&lt;/strong&gt;: 2部相手に辛勝。苦戦の予兆。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2/7 ラ・リーガ vs マジョルカ (3-0)&lt;/strong&gt;: 勝利するもラッシュフォードが負傷。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2/12 コパ・デル・レイ vs アトレティコ (0-4)&lt;/strong&gt;: 準決勝1stレグ。開始14分で2失点、退場者も出し、決勝進出が絶望的に。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ニュース＆噂：移籍市場と小ネタ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;冬の移籍市場&lt;/strong&gt;: 補強はカンセロのローン復帰のみ。テア・シュテーゲンはコンディション調整でジローナへ異例のローンも怪我により長期離脱へ。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;レアル・マドリードの迷走&lt;/strong&gt;: シャビ・アロンソ解任後、アルベロア新体制もコパ早期敗退。更衣室の不和も伝えられる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;スーパーリーグからの撤退&lt;/strong&gt;: クラブは欧州スーパーリーグ・プロジェクトからの正式な撤退を発表。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ペドリのホテル王への道&lt;/strong&gt;: テネリフェ島の元修道院を250万ユーロで購入。ホテルへの改装計画。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;情報ソース&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/barcelona-jyunnosuke-suzuli-champions-league-football-soccer-20260128/bltc23dec2df561cbac"&gt;バルセロナ、コペンハーゲンに4発快勝でCLベスト16にストレートイン&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.football-espana.net/2026/02/12/atletico-madrid-barcelona-copa-ratings"&gt;Barcelona player ratings: Disastrous displays all across the pitch (Atletico 4-0 Barca)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zamin.uz/en/sport/187760-flick-openly-condemns-the-referee-he-called-it-a-tragedy-that-the-goal-of-the-great-player-was-disallowed.html"&gt;Flick openly condemns the referee: He called it a tragedy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.foxsports.com/stories/soccer/psg-set-to-complete-stunning-capture-of-barcelona-gem-dro-fernandez-as-blaugrana-chief-admits-surprise-at-transfer-decision"&gt;PSG Completes Shock Transfer For 18-Year-Old Barcelona Gem Dro Fernandez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.fcbarcelona.com/en/club/news/4446153/fc-barcelona-official-statement"&gt;FC Barcelona official statement (Withdrawal from Super League)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.insideworldfootball.com/2026/02/10/laporta-steps-run-barcelona-presidency/"&gt;Laporta steps down ahead of Barcelona elections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.football-espana.net/2026/02/12/barcelona-star-purchases-convent-for-e2-5m-in-canary-islands"&gt;Barcelona star purchases convent for €2.5m in Canary Islands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.football-espana.net/2026/01/21/gareth-bale-xabi-alonso-failed-real-madrid"&gt;Gareth Bale explains why Xabi Alonso failed at Real Madrid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Podcast"/></entry><entry><title>64: 嗚呼…ペドリ負傷離脱、レアルの政権交代とバルサ会長選</title><link href="https://barca.fm/64" rel="alternate"/><published>2026-01-25T00:00:00+09:00</published><updated>2026-01-25T00:00:00+09:00</updated><author><name>barca.fm</name></author><id>tag:barca.fm,2026-01-25:/64</id><summary type="html">&lt;p&gt;激動の1月後半。スーペルコパ優勝の歓喜も束の間、ソシエダ戦での敗北とペドリの離脱がチームを襲う。一方、宿敵レアル・マドリードではシャビ・アロンソ解任という激震が。久保建英の輝きや移籍市場の動きも含め、濃密な2週間を振り返りました。&lt;/p&gt;</summary><content type="html">&lt;iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/7eiR9EEQhiHjTyXAqwpLa8?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;今週のトピック：激動の冬、ピッチ内外の嵐&lt;/h3&gt;
 &lt;p&gt;スーペルコパ制覇の余韻に浸る間もなく、バルセロナはピッチ内外で激しい嵐に見舞われました。&lt;/p&gt;
